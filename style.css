@@ -1,0 +1,50 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    background-color: rgb(226, 188, 117);
+    font-family: cursive;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    color: blue;
+    background-color: rgb(44, 150, 249);
+    padding: 10px;
+    border-radius: 5px;
+    border: 4px solid crimson;
+    font-size: 1.9rem;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.btn, .reset-btn {
+    width: 100px;
+    height: auto;
+    border: 5px solid aqua;
+    font-size: 1.1rem;
+    padding: 15px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    margin: 10px;
+    box-shadow: 4px 4px 10px crimson;
+}
+
+.result {
+    line-height: 50px;
+    font-size: 1.2rem;
+}
+
+.result span {
+    font-weight: 900;
+    font-size: 1.4rem;
+}
